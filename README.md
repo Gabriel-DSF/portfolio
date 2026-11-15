@@ -1,4 +1,4 @@
-# 👋 Bonjour, moi c'est Gabriel Da Silva !
+# Bonjour, moi c'est Gabriel !
 
  Étudiant en **BTS SIO – Option SISR (Solutions d'Infrastructure, Systèmes et Réseaux)**, je suis passionné par l'informatique, les réseaux et les nouvelles technologies.
 
