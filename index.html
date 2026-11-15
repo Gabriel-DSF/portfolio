@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Da Silva – Développeur web front-end</title>
+    <meta
+      name="description"
+      content="Portfolio de Gabriel Da Silva, développeur web : HTML, CSS, JavaScript. Projets, compétences et contact."
+    />
+    <meta name="theme-color" content="#06261a" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Geist:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="Retour en haut"
+        >gabriel@dev:~$<span class="caret" aria-hidden="true"></span
+      ></a>
+      <nav aria-label="Navigation principale">
+        <a href="#apropos">/apropos</a>
+        <a href="#projets">/projets</a>
+        <a href="#contact">/contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero">
+        <canvas id="net" aria-hidden="true"></canvas>
+        <div class="hero-inner">
+          <div class="hero-text">
+            <p class="status">
+              <span class="dot"></span> en ligne, ouvert aux opportunités
+            </p>
+            <h1>Gabriel<br />Da Silva</h1>
+            <p class="role">Étudiant BTS:SIO_SISR</p>
+            <p class="pitch">
+              Passionné par l'informatique et les nouvelles technologies, je
+              développe mes compétences à travers la réalisation de projets
+              concrets, notamment dans le domaine des réseaux et des systèmes
+              informatiques.
+            </p>
+            <div class="actions">
+              <a class="btn btn-solid" href="#projets">Voir mes projets</a>
+              <a class="btn btn-outline" href="#contact">Me contacter</a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <figure class="portrait">
+              <img
+                src="./src/photoporto.png"
+                alt="Portrait de Gabriel Da Silva"
+                width="640"
+                height="854"
+              />
+            </figure>
+            <div
+              class="term"
+              role="img"
+              aria-label="Terminal : whoami, Gabriel Da Silva, développeur web front-end"
+            >
+              <div class="term-bar">
+                <span></span><span></span><span></span><b>gabriel@dev: ~</b>
+              </div>
+              <div class="term-body">
+                <p class="line">
+                  <span class="ps">$</span> <span class="cmd">whoami</span>
+                </p>
+                <p class="out">gabriel_da_silva</p>
+                <p class="line">
+                  <span class="ps">$</span>
+                  <span class="cmd">cat stack.txt</span>
+                </p>
+                <p class="out">linux, css, javascript, git</p>
+                <p class="line">
+                  <span class="ps">$</span>
+                  <span class="cmd">ping opportunités</span>
+                </p>
+                <p class="out ok">64 bytes : réponse reçue</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about" id="apropos">
+        <div class="about-inner">
+          <div class="about-text">
+            <h2>À propos</h2>
+            <p>
+              J’aime relever de nouveaux défis techniques, apprendre de
+              nouvelles technologies et améliorer en continu la qualité de mon
+              travail. Curieux et motivé, je crée des projets qui allient
+              performance et utilité.
+            </p>
+            <p>
+              Au cours de mon apprentissage, j'ai réalisé de nombreux projets
+              qui m'ont permis de développer et de renforcer mes compétences
+              dans la conception, la configuration et l'administration de
+              réseaux informatiques. Ces expériences pratiques m'ont également
+              permis d'approfondir mes connaissances en gestion des
+              infrastructures réseau et en résolution de problèmes techniques.
+            </p>
+          </div>
+
+          <figure class="topology">
+            <svg
+              viewBox="0 0 520 420"
+              role="img"
+              aria-label="Schéma en étoile : Gabriel relié à HTML, CSS, JavaScript, API web, Git et Responsive"
+            >
+              <g class="ring">
+                <path d="M90 90 L430 80 L460 230 L370 350 L140 340 L60 220 Z" />
+              </g>
+              <g class="spokes">
+                <path d="M260 210 L90 90" />
+                <path d="M260 210 L430 80" />
+                <path d="M260 210 L460 230" />
+                <path d="M260 210 L370 350" />
+                <path d="M260 210 L140 340" />
+                <path d="M260 210 L60 220" />
+              </g>
+              <g class="pill">
+                <rect x="50" y="72" width="150" height="36" rx="18" />
+                <text x="125" y="95">Developpemnt web</text>
+              </g>
+              <g class="pill">
+                <rect x="395" y="62" width="70" height="36" rx="18" />
+                <text x="430" y="85"></text>
+              </g>
+              <g class="pill">
+                <rect x="405" y="212" width="110" height="36" rx="18" />
+                <text x="460" y="235"></text>
+              </g>
+              <g class="pill">
+                <rect x="320" y="332" width="100" height="36" rx="18" />
+                <text x="370" y="355"></text>
+              </g>
+              <g class="pill">
+                <rect x="100" y="322" width="75" height="36" rx="18" />
+                <text x="137" y="345">Linux</text>
+              </g>
+              <g class="pill">
+                <rect x="5" y="202" width="110" height="36" rx="18" />
+                <text x="60" y="225">Git/Github</text>
+              </g>
+              <g class="hub">
+                <circle cx="260" cy="210" r="46" />
+                <text x="260" y="215">Gabriel</text>
+              </g>
+            </svg>
+            <figcaption>Ma stack technologique</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="work" id="projets">
+        <div class="section-head">
+          <h2>Projets</h2>
+          <p>
+            Six nœuds déployés, chacun construit pour apprendre une notion
+            précise.
+          </p>
+        </div>
+
+        <div class="grid">
+          <article class="project">
+            <p class="path"><span class="live"></span> ~/projets/adminboard</p>
+            <div class="frame">
+              <img
+                src="./src/adminboard.png"
+                alt="Capture du tableau de bord Adminboard"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Adminboard</h3>
+              <p>
+                Maquette d’un réseau social fictif : structure, interface et
+                choix d’ergonomie mis en avant.
+              </p>
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Grid</li>
+              </ul>
+              <p class="links">
+                <a href="https://neo-glam.github.io/adminboard/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i> Voir
+                  le site</a
+                >
+                <a href="https://github.com/Neo-Glam/adminboard"
+                  ><i class="fa-brands fa-github"></i> Code</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="project">
+            <p class="path"><span class="live"></span> ~/projets/meteo</p>
+            <div class="frame">
+              <img
+                src="./src/meteteho.png"
+                alt="Capture de l’application météo MeTeTeHo"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Application météo</h3>
+              <p>
+                Intégration et gestion de données issues d’une API externe,
+                affichées selon le lieu recherché.
+              </p>
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>API</li>
+              </ul>
+              <p class="links">
+                <a href="https://neo-glam.github.io/Weather-app/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i> Voir
+                  le site</a
+                >
+                <a href="https://github.com/Neo-Glam/Weather-app"
+                  ><i class="fa-brands fa-github"></i> Code</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="project">
+            <p class="path">
+              <span class="live"></span> ~/projets/etch-a-sketch
+            </p>
+            <div class="frame">
+              <img
+                src="./src/etchasketch.png"
+                alt="Capture de l’application Etch A Sketch"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Etch A Sketch</h3>
+              <p>
+                Une grille à dessiner pour maîtriser les fondamentaux de
+                JavaScript et les interactions utilisateur.
+              </p>
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>DOM</li>
+              </ul>
+              <p class="links">
+                <a href="https://neo-glam.github.io/Etch-a-Sketch/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i> Voir
+                  le site</a
+                >
+                <a href="https://github.com/Neo-Glam/Etch-a-Sketch"
+                  ><i class="fa-brands fa-github"></i> Code</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="project">
+            <p class="path"><span class="live"></span> ~/projets/restaurant</p>
+            <div class="frame">
+              <img
+                src="./src/restaurant_page.png"
+                alt="Capture du site de restaurant VA-11 HALL-A"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Menu de restaurant</h3>
+              <p>
+                Site multipage pour un bar, avec contenu et informations
+                modifiés dynamiquement en JavaScript.
+              </p>
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>Modules</li>
+              </ul>
+              <p class="links">
+                <a href="https://neo-glam.github.io/RestaurantPage/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i> Voir
+                  le site</a
+                >
+                <a href="https://github.com/Neo-Glam/RestaurantPage"
+                  ><i class="fa-brands fa-github"></i> Code</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="project">
+            <p class="path"><span class="live"></span> ~/projets/to-do-it</p>
+            <div class="frame">
+              <img
+                src="./src/to_do_it.png"
+                alt="Capture de l’application To Do It!"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <h3>To Do It!</h3>
+              <p>
+                Application de tâches et de notes qui conserve les données de
+                l’utilisateur grâce à la mémoire locale.
+              </p>
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>localStorage</li>
+              </ul>
+              <p class="links">
+                <a href="https://neo-glam.github.io/todo-list/"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i> Voir
+                  le site</a
+                >
+                <a href="https://github.com/Neo-Glam/todo-list"
+                  ><i class="fa-brands fa-github"></i> Code</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="project">
+            <p class="path">
+              <span class="live off"></span> ~/projets/chemin-du-cavalier
+            </p>
+            <div class="frame">
+              <img
+                src="./src/chess.jpg"
+                alt="Échiquier en bois avec des pièces noires et blanches"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Le chemin du cavalier</h3>
+              <p>
+                Algorithme de plus court chemin pour un cavalier sur un
+                échiquier : graphes, parcours en largeur et structures de
+                données.
+              </p>
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>Algorithmes</li>
+              </ul>
+              <p class="links">
+                <a href="https://github.com/Neo-Glam"
+                  ><i class="fa-brands fa-github"></i> Code</a
+                >
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact" id="contact">
+        <div class="contact-inner">
+          <div>
+            <h2>Établir la<br />connexion.</h2>
+            <p>
+              Si vous pensez que notre collaboration pourrait être bénéfique
+              pour les deux parties, écrivez-moi.
+            </p>
+          </div>
+          <div class="term term-contact">
+            <div class="term-bar">
+              <span></span><span></span><span></span><b>ssh gabriel@contact</b>
+            </div>
+            <ul class="term-body">
+              <li>
+                <i class="fa-solid fa-envelope"></i
+                ><a href="mailto:dasilvaf.gabriel@gmail.com"
+                  >dasilvaf.gabriel@gmail.com</a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i
+                ><a href="tel:+33676781437">06 76 78 14 37</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-github"></i
+                ><a href="https://github.com/Gabriel-DSF">github.com/Gabriel-DSF</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Gabriel Da Silva</p>
+      <a href="#top">Retour en haut</a>
+    </footer>
+  </body>
+</html>
