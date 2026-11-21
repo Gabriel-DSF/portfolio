@@ -110,19 +110,18 @@ const SITE = {
   },
 
   /* ---------- Projets ---------- */
-  projets: {
+ projets: {
     title: "Projets",
-    intro:
-      "Projets du BTS et projets personnels, du réseau au développement web.",
+    intro: "Projets du BTS et projets personnels, du réseau au développement web.",
     allLabel: "Tous",
     items: [
-      // category sert de filtre. image: "" affiche une icône à la place d’une capture.
+      // category sert de filtre : un texte ("BTS SIO") ou plusieurs, en liste (["BTS SIO", "Développement"]).
+      // image: "" affiche une icône à la place d’une capture.
       {
         slug: "infrastructure-ad",
         category: "BTS SIO",
         title: "[Titre du projet SISR]",
-        description:
-          "[À compléter : contexte, ce que tu as mis en place, résultat obtenu]",
+        description: "[À compléter : contexte, ce que tu as mis en place, résultat obtenu]",
         image: "",
         imageAlt: "",
         tags: ["[Technologie 1]", "[Technologie 2]"],
@@ -133,7 +132,7 @@ const SITE = {
       },
       {
         slug: "projet-reseau",
-        category: "BTS SIO",
+        category: ["BTS SIO", "Reseau"],
         title: "[Titre d’un second projet]",
         description: "[À compléter]",
         image: "",
@@ -145,124 +144,76 @@ const SITE = {
         slug: "adminboard",
         category: "Développement",
         title: "Adminboard",
-        description:
-          "Maquette d’un réseau social fictif : structure, interface et choix d’ergonomie mis en avant.",
+        description: "Maquette d’un réseau social fictif : structure, interface et choix d’ergonomie mis en avant.",
         image: "./src/adminboard.png",
         imageAlt: "Capture du tableau de bord Adminboard",
         tags: ["HTML", "CSS", "Grid"],
         links: [
-          {
-            type: "site",
-            label: "Voir le site",
-            href: "https://neo-glam.github.io/adminboard/",
-          },
-          {
-            type: "code",
-            label: "Code",
-            href: "https://github.com/Neo-Glam/adminboard",
-          },
+          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/adminboard/" },
+          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/adminboard" },
         ],
       },
       {
         slug: "meteo",
         category: "Développement",
         title: "Application météo",
-        description:
-          "Intégration et gestion de données issues d’une API externe, affichées selon le lieu recherché.",
+        description: "Intégration et gestion de données issues d’une API externe, affichées selon le lieu recherché.",
         image: "./src/meteteho.png",
         imageAlt: "Capture de l’application météo MeTeTeHo",
         tags: ["JavaScript", "API"],
         links: [
-          {
-            type: "site",
-            label: "Voir le site",
-            href: "https://neo-glam.github.io/Weather-app/",
-          },
-          {
-            type: "code",
-            label: "Code",
-            href: "https://github.com/Neo-Glam/Weather-app",
-          },
+          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/Weather-app/" },
+          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/Weather-app" },
         ],
       },
       {
         slug: "etch-a-sketch",
         category: "Développement",
         title: "Etch A Sketch",
-        description:
-          "Une grille à dessiner pour maîtriser les fondamentaux de JavaScript et les interactions utilisateur.",
+        description: "Une grille à dessiner pour maîtriser les fondamentaux de JavaScript et les interactions utilisateur.",
         image: "./src/etchasketch.png",
         imageAlt: "Capture de l’application Etch A Sketch",
         tags: ["JavaScript", "DOM"],
         links: [
-          {
-            type: "site",
-            label: "Voir le site",
-            href: "https://neo-glam.github.io/Etch-a-Sketch/",
-          },
-          {
-            type: "code",
-            label: "Code",
-            href: "https://github.com/Neo-Glam/Etch-a-Sketch",
-          },
+          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/Etch-a-Sketch/" },
+          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/Etch-a-Sketch" },
         ],
       },
       {
         slug: "restaurant",
         category: "Développement",
         title: "Menu de restaurant",
-        description:
-          "Site multipage pour un bar, avec contenu et informations modifiés dynamiquement en JavaScript.",
+        description: "Site multipage pour un bar, avec contenu et informations modifiés dynamiquement en JavaScript.",
         image: "./src/restaurant_page.png",
         imageAlt: "Capture du site de restaurant VA-11 HALL-A",
         tags: ["JavaScript", "Modules"],
         links: [
-          {
-            type: "site",
-            label: "Voir le site",
-            href: "https://neo-glam.github.io/RestaurantPage/",
-          },
-          {
-            type: "code",
-            label: "Code",
-            href: "https://github.com/Neo-Glam/RestaurantPage",
-          },
+          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/RestaurantPage/" },
+          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/RestaurantPage" },
         ],
       },
       {
         slug: "to-do-it",
         category: "Développement",
         title: "To Do It!",
-        description:
-          "Application de tâches et de notes qui conserve les données de l’utilisateur grâce à la mémoire locale.",
+        description: "Application de tâches et de notes qui conserve les données de l’utilisateur grâce à la mémoire locale.",
         image: "./src/to_do_it.png",
         imageAlt: "Capture de l’application To Do It!",
         tags: ["JavaScript", "localStorage"],
         links: [
-          {
-            type: "site",
-            label: "Voir le site",
-            href: "https://neo-glam.github.io/todo-list/",
-          },
-          {
-            type: "code",
-            label: "Code",
-            href: "https://github.com/Neo-Glam/todo-list",
-          },
+          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/todo-list/" },
+          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/todo-list" },
         ],
       },
       {
         slug: "chemin-du-cavalier",
         category: "Développement",
         title: "Le chemin du cavalier",
-        description:
-          "Algorithme de plus court chemin pour un cavalier sur un échiquier : graphes, parcours en largeur et structures de données.",
+        description: "Algorithme de plus court chemin pour un cavalier sur un échiquier : graphes, parcours en largeur et structures de données.",
         image: "./src/chess.jpg",
         imageAlt: "Échiquier en bois avec des pièces noires et blanches",
         tags: ["JavaScript", "Algorithmes"],
-        links: [
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam" },
-        ],
+        links: [{ type: "code", label: "Code", href: "https://github.com/Neo-Glam" }],
       },
     ],
   },
