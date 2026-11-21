@@ -61,27 +61,26 @@ const SITE = {
     // Parcours de formation
     formation: [
       {
-        period: "[20XX – 20XX]",
+        period: "2026 – 2028",
         title: "BTS SIO option SISR",
-        place: "[Établissement, ville]",
+        place: "IRIS: Ecole d'informatique & numérique, Paris",
       },
       {
-        period: "[20XX]",
-        title: "[Diplôme / Bac obtenu]",
-        place: "[Établissement, ville]",
+        period: "2020",
+        title: "Bac Scientifique",
+        place: "Lycée les Pierres Vives, Carrières-sur-Seine",
       },
     ],
     // Chaque groupe devient un nœud du schéma (6 à 8 groupes max pour rester lisible)
     skills: [
       {
         name: "Systèmes",
-        items: ["Windows Server", "Active Directory", "Linux"],
+        items: ["Windows","Linux","Active Directory"],
       },
       { name: "Réseaux", items: ["[TCP/IP, VLAN, routage…]"] },
-      { name: "Virtualisation", items: ["[Hyper-V, VMware, Proxmox…]"] },
-      { name: "Sécurité", items: ["[Pare-feu, sauvegardes, droits d’accès…]"] },
-      { name: "Supervision", items: ["[Zabbix, Nagios, GLPI…]"] },
-      { name: "Scripts", items: ["PowerShell", "Bash"] },
+      { name: "Virtualisation", items: ["Virtualbox"] },
+      { name: "Sécurité", items: ["Sauvegardes", "droits d’accès"] },
+      { name: "Supervision", items: ["ServiceNow"] },
     ],
   },
 
@@ -92,27 +91,28 @@ const SITE = {
       "Mon alternance, où j’applique en entreprise ce que j’apprends en cours.",
     items: [
       {
-        period: "[Septembre 20XX – présent]",
-        role: "[Intitulé du poste, ex. Technicien systèmes et réseaux en alternance]",
+        period: "Août 2026 – présent",
+        role: "Support IT de proximité",
         company: "Saint-Gobain",
-        place: "[Site / ville]",
+        place: "Tour Saint-Gobain, Courbevoie",
         summary:
-          "[À compléter : en deux phrases, ton service, ton équipe et ton rôle]",
+          "Assurer le support informatique de proximité auprès des utilisateurs en diagnostiquant et résolvant les incidents matériels et logiciels. Participer à la maintenance du parc informatique, à la configuration des postes de travail et à l'accompagnement des utilisateurs dans leur environnement numérique.",
         missions: [
-          "[Mission 1, ex. gestion des comptes et des droits sur Active Directory]",
-          "[Mission 2, ex. support utilisateurs et traitement de tickets]",
-          "[Mission 3, ex. déploiement et maintenance de postes ou de serveurs]",
+          "Gestion des comptes Active Directory",
+          "Support utilisateurs et traitement de tickets",
+          "Déploiement et maintenance de postes",
         ],
-        tools: ["[Outil 1]", "[Outil 2]", "[Outil 3]"],
+        tools: ["ServiceNow", "Active Directory", "Microsoft 365"],
       },
       /* Pour ajouter un stage ou un autre poste, copie le bloc ci-dessus. */
     ],
   },
 
   /* ---------- Projets ---------- */
- projets: {
+  projets: {
     title: "Projets",
-    intro: "Projets du BTS et projets personnels, du réseau au développement web.",
+    intro:
+      "Projets du BTS et projets personnels, du réseau au développement web.",
     allLabel: "Tous",
     items: [
       // category sert de filtre : un texte ("BTS SIO") ou plusieurs, en liste (["BTS SIO", "Développement"]).
@@ -121,7 +121,8 @@ const SITE = {
         slug: "infrastructure-ad",
         category: "BTS SIO",
         title: "[Titre du projet SISR]",
-        description: "[À compléter : contexte, ce que tu as mis en place, résultat obtenu]",
+        description:
+          "[À compléter : contexte, ce que tu as mis en place, résultat obtenu]",
         image: "",
         imageAlt: "",
         tags: ["[Technologie 1]", "[Technologie 2]"],
@@ -144,76 +145,124 @@ const SITE = {
         slug: "adminboard",
         category: "Développement",
         title: "Adminboard",
-        description: "Maquette d’un réseau social fictif : structure, interface et choix d’ergonomie mis en avant.",
+        description:
+          "Maquette d’un réseau social fictif : structure, interface et choix d’ergonomie mis en avant.",
         image: "./src/adminboard.png",
         imageAlt: "Capture du tableau de bord Adminboard",
         tags: ["HTML", "CSS", "Grid"],
         links: [
-          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/adminboard/" },
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/adminboard" },
+          {
+            type: "site",
+            label: "Voir le site",
+            href: "https://neo-glam.github.io/adminboard/",
+          },
+          {
+            type: "code",
+            label: "Code",
+            href: "https://github.com/Neo-Glam/adminboard",
+          },
         ],
       },
       {
         slug: "meteo",
         category: "Développement",
         title: "Application météo",
-        description: "Intégration et gestion de données issues d’une API externe, affichées selon le lieu recherché.",
+        description:
+          "Intégration et gestion de données issues d’une API externe, affichées selon le lieu recherché.",
         image: "./src/meteteho.png",
         imageAlt: "Capture de l’application météo MeTeTeHo",
         tags: ["JavaScript", "API"],
         links: [
-          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/Weather-app/" },
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/Weather-app" },
+          {
+            type: "site",
+            label: "Voir le site",
+            href: "https://neo-glam.github.io/Weather-app/",
+          },
+          {
+            type: "code",
+            label: "Code",
+            href: "https://github.com/Neo-Glam/Weather-app",
+          },
         ],
       },
       {
         slug: "etch-a-sketch",
         category: "Développement",
         title: "Etch A Sketch",
-        description: "Une grille à dessiner pour maîtriser les fondamentaux de JavaScript et les interactions utilisateur.",
+        description:
+          "Une grille à dessiner pour maîtriser les fondamentaux de JavaScript et les interactions utilisateur.",
         image: "./src/etchasketch.png",
         imageAlt: "Capture de l’application Etch A Sketch",
         tags: ["JavaScript", "DOM"],
         links: [
-          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/Etch-a-Sketch/" },
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/Etch-a-Sketch" },
+          {
+            type: "site",
+            label: "Voir le site",
+            href: "https://neo-glam.github.io/Etch-a-Sketch/",
+          },
+          {
+            type: "code",
+            label: "Code",
+            href: "https://github.com/Neo-Glam/Etch-a-Sketch",
+          },
         ],
       },
       {
         slug: "restaurant",
         category: "Développement",
         title: "Menu de restaurant",
-        description: "Site multipage pour un bar, avec contenu et informations modifiés dynamiquement en JavaScript.",
+        description:
+          "Site multipage pour un bar, avec contenu et informations modifiés dynamiquement en JavaScript.",
         image: "./src/restaurant_page.png",
         imageAlt: "Capture du site de restaurant VA-11 HALL-A",
         tags: ["JavaScript", "Modules"],
         links: [
-          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/RestaurantPage/" },
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/RestaurantPage" },
+          {
+            type: "site",
+            label: "Voir le site",
+            href: "https://neo-glam.github.io/RestaurantPage/",
+          },
+          {
+            type: "code",
+            label: "Code",
+            href: "https://github.com/Neo-Glam/RestaurantPage",
+          },
         ],
       },
       {
         slug: "to-do-it",
         category: "Développement",
         title: "To Do It!",
-        description: "Application de tâches et de notes qui conserve les données de l’utilisateur grâce à la mémoire locale.",
+        description:
+          "Application de tâches et de notes qui conserve les données de l’utilisateur grâce à la mémoire locale.",
         image: "./src/to_do_it.png",
         imageAlt: "Capture de l’application To Do It!",
         tags: ["JavaScript", "localStorage"],
         links: [
-          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/todo-list/" },
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/todo-list" },
+          {
+            type: "site",
+            label: "Voir le site",
+            href: "https://neo-glam.github.io/todo-list/",
+          },
+          {
+            type: "code",
+            label: "Code",
+            href: "https://github.com/Neo-Glam/todo-list",
+          },
         ],
       },
       {
         slug: "chemin-du-cavalier",
         category: "Développement",
         title: "Le chemin du cavalier",
-        description: "Algorithme de plus court chemin pour un cavalier sur un échiquier : graphes, parcours en largeur et structures de données.",
+        description:
+          "Algorithme de plus court chemin pour un cavalier sur un échiquier : graphes, parcours en largeur et structures de données.",
         image: "./src/chess.jpg",
         imageAlt: "Échiquier en bois avec des pièces noires et blanches",
         tags: ["JavaScript", "Algorithmes"],
-        links: [{ type: "code", label: "Code", href: "https://github.com/Neo-Glam" }],
+        links: [
+          { type: "code", label: "Code", href: "https://github.com/Neo-Glam" },
+        ],
       },
     ],
   },
@@ -222,7 +271,7 @@ const SITE = {
   veille: {
     title: "Veille technologique",
     intro:
-      "Rester informé des évolutions qui touchent les sujets qui m'intéressent.",
+      "",
     subjectLabel: "Sujet suivi",
     subject: "Les véhicules autonomes",
     why: "Un véhicule autonome n'est pas simplement une voiture équipée de capteurs : c'est un véritable système informatique mobile qui doit communiquer, traiter des données et échanger des informations en permanence.",
