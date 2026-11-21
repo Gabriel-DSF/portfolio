@@ -60,12 +60,23 @@ const SITE = {
     diagramCaption: "Mes domaines, en réseau.",
     // Parcours de formation
     formation: [
-      { period: "[20XX – 20XX]", title: "BTS SIO option SISR", place: "[Établissement, ville]" },
-      { period: "[20XX]", title: "[Diplôme / Bac obtenu]", place: "[Établissement, ville]" },
+      {
+        period: "[20XX – 20XX]",
+        title: "BTS SIO option SISR",
+        place: "[Établissement, ville]",
+      },
+      {
+        period: "[20XX]",
+        title: "[Diplôme / Bac obtenu]",
+        place: "[Établissement, ville]",
+      },
     ],
     // Chaque groupe devient un nœud du schéma (6 à 8 groupes max pour rester lisible)
     skills: [
-      { name: "Systèmes", items: ["Windows Server", "Active Directory", "Linux"] },
+      {
+        name: "Systèmes",
+        items: ["Windows Server", "Active Directory", "Linux"],
+      },
       { name: "Réseaux", items: ["[TCP/IP, VLAN, routage…]"] },
       { name: "Virtualisation", items: ["[Hyper-V, VMware, Proxmox…]"] },
       { name: "Sécurité", items: ["[Pare-feu, sauvegardes, droits d’accès…]"] },
@@ -77,14 +88,16 @@ const SITE = {
   /* ---------- Expérience ---------- */
   experience: {
     title: "Expérience",
-    intro: "Mon alternance, où j’applique en entreprise ce que j’apprends en cours.",
+    intro:
+      "Mon alternance, où j’applique en entreprise ce que j’apprends en cours.",
     items: [
       {
         period: "[Septembre 20XX – présent]",
         role: "[Intitulé du poste, ex. Technicien systèmes et réseaux en alternance]",
         company: "Saint-Gobain",
         place: "[Site / ville]",
-        summary: "[À compléter : en deux phrases, ton service, ton équipe et ton rôle]",
+        summary:
+          "[À compléter : en deux phrases, ton service, ton équipe et ton rôle]",
         missions: [
           "[Mission 1, ex. gestion des comptes et des droits sur Active Directory]",
           "[Mission 2, ex. support utilisateurs et traitement de tickets]",
@@ -99,7 +112,8 @@ const SITE = {
   /* ---------- Projets ---------- */
   projets: {
     title: "Projets",
-    intro: "Projets du BTS et projets personnels, du réseau au développement web.",
+    intro:
+      "Projets du BTS et projets personnels, du réseau au développement web.",
     allLabel: "Tous",
     items: [
       // category sert de filtre. image: "" affiche une icône à la place d’une capture.
@@ -107,7 +121,8 @@ const SITE = {
         slug: "infrastructure-ad",
         category: "BTS SIO",
         title: "[Titre du projet SISR]",
-        description: "[À compléter : contexte, ce que tu as mis en place, résultat obtenu]",
+        description:
+          "[À compléter : contexte, ce que tu as mis en place, résultat obtenu]",
         image: "",
         imageAlt: "",
         tags: ["[Technologie 1]", "[Technologie 2]"],
@@ -130,76 +145,124 @@ const SITE = {
         slug: "adminboard",
         category: "Développement",
         title: "Adminboard",
-        description: "Maquette d’un réseau social fictif : structure, interface et choix d’ergonomie mis en avant.",
+        description:
+          "Maquette d’un réseau social fictif : structure, interface et choix d’ergonomie mis en avant.",
         image: "./src/adminboard.png",
         imageAlt: "Capture du tableau de bord Adminboard",
         tags: ["HTML", "CSS", "Grid"],
         links: [
-          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/adminboard/" },
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/adminboard" },
+          {
+            type: "site",
+            label: "Voir le site",
+            href: "https://neo-glam.github.io/adminboard/",
+          },
+          {
+            type: "code",
+            label: "Code",
+            href: "https://github.com/Neo-Glam/adminboard",
+          },
         ],
       },
       {
         slug: "meteo",
         category: "Développement",
         title: "Application météo",
-        description: "Intégration et gestion de données issues d’une API externe, affichées selon le lieu recherché.",
+        description:
+          "Intégration et gestion de données issues d’une API externe, affichées selon le lieu recherché.",
         image: "./src/meteteho.png",
         imageAlt: "Capture de l’application météo MeTeTeHo",
         tags: ["JavaScript", "API"],
         links: [
-          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/Weather-app/" },
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/Weather-app" },
+          {
+            type: "site",
+            label: "Voir le site",
+            href: "https://neo-glam.github.io/Weather-app/",
+          },
+          {
+            type: "code",
+            label: "Code",
+            href: "https://github.com/Neo-Glam/Weather-app",
+          },
         ],
       },
       {
         slug: "etch-a-sketch",
         category: "Développement",
         title: "Etch A Sketch",
-        description: "Une grille à dessiner pour maîtriser les fondamentaux de JavaScript et les interactions utilisateur.",
+        description:
+          "Une grille à dessiner pour maîtriser les fondamentaux de JavaScript et les interactions utilisateur.",
         image: "./src/etchasketch.png",
         imageAlt: "Capture de l’application Etch A Sketch",
         tags: ["JavaScript", "DOM"],
         links: [
-          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/Etch-a-Sketch/" },
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/Etch-a-Sketch" },
+          {
+            type: "site",
+            label: "Voir le site",
+            href: "https://neo-glam.github.io/Etch-a-Sketch/",
+          },
+          {
+            type: "code",
+            label: "Code",
+            href: "https://github.com/Neo-Glam/Etch-a-Sketch",
+          },
         ],
       },
       {
         slug: "restaurant",
         category: "Développement",
         title: "Menu de restaurant",
-        description: "Site multipage pour un bar, avec contenu et informations modifiés dynamiquement en JavaScript.",
+        description:
+          "Site multipage pour un bar, avec contenu et informations modifiés dynamiquement en JavaScript.",
         image: "./src/restaurant_page.png",
         imageAlt: "Capture du site de restaurant VA-11 HALL-A",
         tags: ["JavaScript", "Modules"],
         links: [
-          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/RestaurantPage/" },
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/RestaurantPage" },
+          {
+            type: "site",
+            label: "Voir le site",
+            href: "https://neo-glam.github.io/RestaurantPage/",
+          },
+          {
+            type: "code",
+            label: "Code",
+            href: "https://github.com/Neo-Glam/RestaurantPage",
+          },
         ],
       },
       {
         slug: "to-do-it",
         category: "Développement",
         title: "To Do It!",
-        description: "Application de tâches et de notes qui conserve les données de l’utilisateur grâce à la mémoire locale.",
+        description:
+          "Application de tâches et de notes qui conserve les données de l’utilisateur grâce à la mémoire locale.",
         image: "./src/to_do_it.png",
         imageAlt: "Capture de l’application To Do It!",
         tags: ["JavaScript", "localStorage"],
         links: [
-          { type: "site", label: "Voir le site", href: "https://neo-glam.github.io/todo-list/" },
-          { type: "code", label: "Code", href: "https://github.com/Neo-Glam/todo-list" },
+          {
+            type: "site",
+            label: "Voir le site",
+            href: "https://neo-glam.github.io/todo-list/",
+          },
+          {
+            type: "code",
+            label: "Code",
+            href: "https://github.com/Neo-Glam/todo-list",
+          },
         ],
       },
       {
         slug: "chemin-du-cavalier",
         category: "Développement",
         title: "Le chemin du cavalier",
-        description: "Algorithme de plus court chemin pour un cavalier sur un échiquier : graphes, parcours en largeur et structures de données.",
+        description:
+          "Algorithme de plus court chemin pour un cavalier sur un échiquier : graphes, parcours en largeur et structures de données.",
         image: "./src/chess.jpg",
         imageAlt: "Échiquier en bois avec des pièces noires et blanches",
         tags: ["JavaScript", "Algorithmes"],
-        links: [{ type: "code", label: "Code", href: "https://github.com/Neo-Glam" }],
+        links: [
+          { type: "code", label: "Code", href: "https://github.com/Neo-Glam" },
+        ],
       },
     ],
   },
@@ -207,19 +270,20 @@ const SITE = {
   /* ---------- Veille technologique ---------- */
   veille: {
     title: "Veille technologique",
-    intro: "Rester informé des évolutions qui touchent les infrastructures et la cybersécurité.",
+    intro:
+      "Rester informé des évolutions qui touchent les sujets qui m'intéressent.",
     subjectLabel: "Sujet suivi",
-    subject: "[À compléter : ex. Sécurité des infrastructures, Zero Trust, SD-WAN…]",
-    why: "[À compléter : pourquoi ce sujet, en quoi il concerne ton alternance ou ton futur métier]",
+    subject: "Les véhicules autonomes",
+    why: "Un véhicule autonome n'est pas simplement une voiture équipée de capteurs : c'est un véritable système informatique mobile qui doit communiquer, traiter des données et échanger des informations en permanence.",
     toolsTitle: "Outils de veille",
     tools: [
-      { name: "[Ex. Feedly, Netvibes]", url: "" },
-      { name: "[Ex. alertes Google]", url: "" },
+      { name: "Feedly", url: "" },
+      { name: "alertes Google", url: "" },
     ],
     sourcesTitle: "Sources suivies",
     sources: [
-      { name: "[Ex. ANSSI]", url: "" },
-      { name: "[Ex. LeMagIT]", url: "" },
+      { name: "ADAS & autonomous Vehicle", url: "" },
+      { name: "Automotive World", url: "" },
     ],
     entriesTitle: "Mes notes de veille",
 
@@ -228,12 +292,21 @@ const SITE = {
        chaque jour et le site affiche les derniers articles tout seul.
        (Sur un site : cherche l’icône RSS, ou ajoute /feed ou /rss à l’adresse.) */
     autoTitle: "Dernières publications (automatique)",
-    autoCount: 6,            // nombre d’articles affichés
+    autoCount: 6, // nombre d’articles affichés
     feedsFile: "./veille.json",
     feeds: [
-      { name: "CERT-FR (ANSSI)", url: "https://www.cert.ssi.gouv.fr/feed/" }, // à vérifier
-      { name: "[Source 2]", url: "" },
-      { name: "[Source 3]", url: "" },
+      {
+        name: "The Guardian",
+        url: "https://www.theguardian.com/technology/self-driving-cars/rss",
+      }, // à vérifier
+      {
+        name: "ADAS & autonomous Vehicle",
+        url: "https://www.autonomousvehicleinternational.com/feed",
+      },
+      {
+        name: "Automotive World",
+        url: "https://www.automotiveworld.com/feed/",
+      },
     ],
     entries: [
       {
@@ -259,9 +332,21 @@ const SITE = {
     intro: "Une question, une opportunité, une collaboration ? Écrivez-moi.",
     terminalTitle: "ssh gabriel@contact",
     links: [
-      { icon: "fa-solid fa-envelope", label: "dasilvaf.gabriel@gmail.com", href: "mailto:dasilvaf.gabriel@gmail.com" },
-      { icon: "fa-solid fa-phone", label: "06 76 78 14 37", href: "tel:+33676781437" },
-      { icon: "fa-brands fa-github", label: "github.com/Neo-Glam", href: "https://github.com/Neo-Glam" },
+      {
+        icon: "fa-solid fa-envelope",
+        label: "dasilvaf.gabriel@gmail.com",
+        href: "mailto:dasilvaf.gabriel@gmail.com",
+      },
+      {
+        icon: "fa-solid fa-phone",
+        label: "06 76 78 14 37",
+        href: "tel:+33676781437",
+      },
+      {
+        icon: "fa-brands fa-github",
+        label: "github.com/Neo-Glam",
+        href: "https://github.com/Neo-Glam",
+      },
       { icon: "fa-brands fa-linkedin", label: "LinkedIn", href: "" }, // colle ton lien pour l’afficher
     ],
   },
