@@ -285,14 +285,14 @@ const SITE = {
       { name: "ADAS & autonomous Vehicle", url: "" },
       { name: "Automotive World", url: "" },
     ],
-    entriesTitle: "Mes notes de veille",
+    entriesTitle: "",
 
     /* --- Flux automatiques (RSS) ---
        Colle ici l’adresse RSS des sites que tu suis. Une tâche GitHub les lit
        chaque jour et le site affiche les derniers articles tout seul.
        (Sur un site : cherche l’icône RSS, ou ajoute /feed ou /rss à l’adresse.) */
-    autoTitle: "Dernières publications (automatique)",
-    autoCount: 6, // nombre d’articles affichés
+    autoTitle: "Dernières publications",
+    autoCount: 4, // nombre d’articles affichés
     feedsFile: "./veille.json",
     feeds: [
       {
@@ -309,20 +309,20 @@ const SITE = {
       },
     ],
     entries: [
-      {
-        date: "[JJ/MM/AAAA]",
-        title: "[Titre de l’article ou de l’actualité]",
-        source: "[Source]",
-        url: "",
-        summary: "[À compléter : ce que tu en retiens, en deux phrases]",
-      },
-      {
-        date: "[JJ/MM/AAAA]",
-        title: "[Titre de l’article ou de l’actualité]",
-        source: "[Source]",
-        url: "",
-        summary: "[À compléter]",
-      },
+      // {
+      //   date: "[JJ/MM/AAAA]",
+      //   title: "[Titre de l’article ou de l’actualité]",
+      //   source: "[Source]",
+      //   url: "",
+      //   summary: "[À compléter : ce que tu en retiens, en deux phrases]",
+      // },
+      // {
+      //   date: "[JJ/MM/AAAA]",
+      //   title: "[Titre de l’article ou de l’actualité]",
+      //   source: "[Source]",
+      //   url: "",
+      //   summary: "[À compléter]",
+      // },
     ],
   },
 
@@ -344,8 +344,8 @@ const SITE = {
       },
       {
         icon: "fa-brands fa-github",
-        label: "github.com/Neo-Glam",
-        href: "https://github.com/Neo-Glam",
+        label: "github.com/Gabriel-DSF",
+        href: "https://github.com/Gabriel-DSF",
       },
       { icon: "fa-brands fa-linkedin", label: "LinkedIn", href: "" }, // colle ton lien pour l’afficher
     ],
