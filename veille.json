@@ -1,40 +1,75 @@
 {
-  "updated": "2026-11-22T14:06:54.933Z",
+  "updated": "2026-11-23T17:28:40.081Z",
   "items": [
     {
-      "title": "Continental may end tyre production in South Africa",
-      "url": "https://www.automotiveworld.com/news/continental-may-end-tyre-production-in-south-africa/",
+      "title": "Tesla claims 25x gain with FSD v15 but offers no baseline",
+      "url": "https://www.automotiveworld.com/intelligence/tesla-claims-25x-gain-with-fsd-v15-but-offers-no-baseline/",
       "source": "Automotive World",
-      "date": "2026-11-20T17:02:37.000Z",
-      "summary": "Continental has started consultations on closing its Gqeberha tyre plant in South Africa, which employs around 950 people The post Continental may end tyre production in South Africa appeared first on Automotive World ."
+      "date": "2026-11-23T16:23:10.000Z",
+      "summary": "Tesla claims a 25x drop in critical interventions with FSD v15, but declined to publish the figure it is multiplying. By Stewart Burnett The post Tesla claims 25x gain with FSD v15 but offers no baseline appeared first…"
     },
     {
-      "title": "Japan’s industry to standardise parts, boost competitiveness",
-      "url": "https://www.automotiveworld.com/analysis/japans-industry-to-standardise-parts-boost-competitiveness/",
+      "title": "Dutch court blocks BYD’s Defender lookalike across the EU",
+      "url": "https://www.automotiveworld.com/news/dutch-court-blocks-byds-defender-lookalike-across-the-eu/",
       "source": "Automotive World",
-      "date": "2026-11-20T15:22:21.000Z",
-      "summary": "Through cross-industry collaboration, Japan's OEMs want to standardise steel, resin and wire harnesses to free up capital for other areas. By Will Girling The post Japan’s industry to standardise parts, boost…"
+      "date": "2026-11-23T14:58:58.000Z",
+      "summary": "JLR has blocked the Ti7 in markets BYD was not yet targeting, while the SUV still reaches UK buyers from January 2027. By Stewart Burnett The post Dutch court blocks BYD’s Defender lookalike across the EU appeared first…"
     },
     {
-      "title": "Mercedes-Benz freezes German spending over labour costs",
-      "url": "https://www.automotiveworld.com/intelligence/mercedes-benz-freezes-german-spending-over-labour-costs/",
-      "source": "Automotive World",
-      "date": "2026-11-20T14:40:27.000Z",
-      "summary": "Mercedes says a German production hour can cost up to five times more than in Eastern Europe, where it plans to expand output The post Mercedes-Benz freezes German spending over labour costs appeared first on Automotive…"
+      "title": "California DMV ban leads Waymo to pause freeway services",
+      "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/california-dmv-ban-leads-waymo-to-pause-freeway-services.html",
+      "source": "ADAS & autonomous Vehicle",
+      "date": "2026-11-23T12:36:27.000Z",
+      "summary": "Waymo has temporarily suspended its driverless taxi services on freeways across the US following a series of traffic incidents involving its autonomous vehicles, according to Reuters and the Associated Press (AP). The…"
     },
     {
-      "title": "WeRide revenue up 88% as overseas robotaxi business grows",
-      "url": "https://www.automotiveworld.com/news/weride-revenue-up-88-as-overseas-robotaxi-business-grows/",
-      "source": "Automotive World",
-      "date": "2026-11-20T14:02:08.000Z",
-      "summary": "WeRide's third-quarter revenue rose 88% to CN¥321.5m as overseas sales jumped 171.5% to account for nearly half the total The post WeRide revenue up 88% as overseas robotaxi business grows appeared first on Automotive…"
+      "title": "From SDVs to AI-defined vehicles: key takeaways from ASAM International Conference 2026",
+      "url": "https://www.autonomousvehicleinternational.com/news/testing/from-sdvs-to-ai-defined-vehicles-key-takeaways-from-asam-international-conference-2026.html",
+      "source": "ADAS & autonomous Vehicle",
+      "date": "2026-11-23T11:36:01.000Z",
+      "summary": "The House of Communication in Munich provided the ideal setting for ASAM’s biennial International Conference 2026 (November 4-5), where global industry experts across disciplines in the automotive value chain gathered…"
     },
     {
-      "title": "California sets new rules for robotaxi remote operations",
-      "url": "https://www.automotiveworld.com/news/california-sets-new-rules-for-robotaxi-remote-operations/",
+      "title": "Is this the end of the German industry as we know it?",
+      "url": "https://www.automotiveworld.com/analysis/is-this-the-end-of-the-german-industry-as-we-know-it/",
       "source": "Automotive World",
-      "date": "2026-11-20T13:41:57.000Z",
-      "summary": "California's SB 1246 will require AV makers to send local technicians to incidents and keep remote staff ready to respond The post California sets new rules for robotaxi remote operations appeared first on Automotive…"
+      "date": "2026-11-23T08:09:46.000Z",
+      "summary": "Cutbacks at major OEMs and Tesla’s €3bn investment plan for Cybercabs in Berlin might say something about the future of German manufacturing. By Ian Henry The post Is this the end of the German industry as we know it?…"
+    },
+    {
+      "title": "Xpeng opens public driver assistance test rides in Paris",
+      "url": "https://www.automotiveworld.com/news/xpeng-opens-public-driver-assistance-test-rides-in-paris/",
+      "source": "Automotive World",
+      "date": "2026-11-23T07:20:26.000Z",
+      "summary": "Xpeng is using showroom test rides to build trust in its driver assistance before regulators clear it for European roads The post Xpeng opens public driver assistance test rides in Paris appeared first on Automotive…"
+    },
+    {
+      "title": "LTTS launches SDVault.ai for software-defined vehicles",
+      "url": "https://www.automotiveworld.com/news/ltts-launches-sdvault-ai-for-software-defined-vehicles/",
+      "source": "Automotive World",
+      "date": "2026-11-23T07:15:40.000Z",
+      "summary": "LTTS is betting automakers will accept AI in vehicle software work only if it is fenced in by deterministic, traceable checks The post LTTS launches SDVault.ai for software-defined vehicles appeared first on Automotive…"
+    },
+    {
+      "title": "Pirelli to build Cyber Tyre at its Rome plant in Georgia",
+      "url": "https://www.automotiveworld.com/news/pirelli-to-build-cyber-tyre-at-its-rome-plant-in-georgia/",
+      "source": "Automotive World",
+      "date": "2026-11-23T07:10:21.000Z",
+      "summary": "Pirelli is turning the tyre into a data source for vehicle control systems, a role that could grow as driver assistance matures The post Pirelli to build Cyber Tyre at its Rome plant in Georgia appeared first on…"
+    },
+    {
+      "title": "Ford takes stake in spacecraft maker Revolution Space",
+      "url": "https://www.automotiveworld.com/news/ford-takes-stake-in-spacecraft-maker-revolution-space/",
+      "source": "Automotive World",
+      "date": "2026-11-23T07:05:16.000Z",
+      "summary": "As satellite making moves to automated lines, Ford sees a place for automotive production know-how beyond the vehicle business The post Ford takes stake in spacecraft maker Revolution Space appeared first on Automotive…"
+    },
+    {
+      "title": "Stellantis to quit endurance racing and Formula E by 2027",
+      "url": "https://www.automotiveworld.com/news/stellantis-to-quit-endurance-racing-and-formula-e-by-2027/",
+      "source": "Automotive World",
+      "date": "2026-11-23T07:00:49.000Z",
+      "summary": "Stellantis is trading the prestige of world championship racing for spending that feeds directly into the cars it sells The post Stellantis to quit endurance racing and Formula E by 2027 appeared first on Automotive…"
     },
     {
       "title": "Aptiv combines AI, sensor fusion and scalable architecture in new ADAS platform",
@@ -42,27 +77,6 @@
       "source": "ADAS & autonomous Vehicle",
       "date": "2026-11-20T12:25:33.000Z",
       "summary": "Aptiv has launched the Aptiv PRISM (Perception & Reasoning for Intelligent, Safe Mobility) platform for next-generation ADAS. According to the company, the platform empowers auto makers to fully leverage advanced AI…"
-    },
-    {
-      "title": "Lepas L8, L6 and L4 earn five-star Euro NCAP ratings",
-      "url": "https://www.automotiveworld.com/news/lepas-l8-l6-and-l4-earn-five-star-euro-ncap-ratings/",
-      "source": "Automotive World",
-      "date": "2026-11-20T11:13:40.000Z",
-      "summary": "Lepas's L8, L6 and L4 have each earned five-star Euro NCAP ratings under the programme's tougher 2026 assessment protocols The post Lepas L8, L6 and L4 earn five-star Euro NCAP ratings appeared first on Automotive World…"
-    },
-    {
-      "title": "Fiat launches Algerian-built Doblò Panorama Street edition",
-      "url": "https://www.automotiveworld.com/news/fiat-launches-algerian-built-doblo-panorama-street-edition/",
-      "source": "Automotive World",
-      "date": "2026-11-20T11:11:50.000Z",
-      "summary": "Fiat El Djazaïr has launched the Doblò Panorama Street, a limited edition built at the Tafraoui plant and priced from DZD3.87m The post Fiat launches Algerian-built Doblò Panorama Street edition appeared first on…"
-    },
-    {
-      "title": "Chery’s iCar launches V25 range-extender SUV in China",
-      "url": "https://www.automotiveworld.com/news/cherys-icar-launches-v25-range-extender-suv-in-china/",
-      "source": "Automotive World",
-      "date": "2026-11-20T11:01:16.000Z",
-      "summary": "The boxy iCar V25 slots between the V23 and V27, pairing a 1.5-litre range extender with 335kW of power and 210km of EV range The post Chery’s iCar launches V25 range-extender SUV in China appeared first on Automotive…"
     },
     {
       "title": "Waymo pulls driverless taxis from freeways across the US after California ban",
@@ -112,20 +126,6 @@
       "source": "ADAS & autonomous Vehicle",
       "date": "2026-11-16T16:45:34.000Z",
       "summary": "Pony AI and Toyota have launched a fully driverless commercial service with their ‌collaboratively developed bZ4X robotaxi. One of Pony.ai’s three seventh-generation robotaxi models, the bZ4X has officially joined the…"
-    },
-    {
-      "title": "Zoox begins autonomous robotaxi testing in Atlanta",
-      "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/zoox-begins-autonomous-robotaxi-testing-in-atlanta.html",
-      "source": "ADAS & autonomous Vehicle",
-      "date": "2026-11-16T16:34:51.000Z",
-      "summary": "The Zoox robotaxi has been deployed in Atlanta, Georgia, with the initial rollout focusing on the northwest region of the city, near Atlantic Station, Woodward and Home Park. The company plans to expand the service…"
-    },
-    {
-      "title": "Volkswagen ID. Buzz to join May Mobility’s global robotaxi fleet",
-      "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/volkswagen-id-buzz-to-join-may-mobilitys-global-robotaxi-fleet.html",
-      "source": "ADAS & autonomous Vehicle",
-      "date": "2026-11-16T16:17:40.000Z",
-      "summary": "May Mobility has announced its plan to bring the Volkswagen ID. Buzz to global robotaxi platforms, powered by the AD technology company’s autonomous driving system. The company aims to deploy more than 10,000 autonomous…"
     },
     {
       "title": "Tesla to wind down Cybertruck production as Elon Musk focuses on robotics and AI",
