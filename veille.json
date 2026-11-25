@@ -1,61 +1,75 @@
 {
-  "updated": "2026-11-24T17:00:16.943Z",
+  "updated": "2026-11-25T16:51:00.990Z",
   "items": [
     {
-      "title": "VW wage talks kick off with prop coffins and strike threats",
-      "url": "https://www.automotiveworld.com/news/vw-wage-talks-kick-off-with-prop-coffins-and-strike-threats/",
-      "source": "Automotive World",
-      "date": "2026-11-24T15:58:07.000Z",
-      "summary": "With margins near 1% and China no longer a cushion, VW wants German cost cuts that go far beyond its 2024 union deal. By Stewart Burnett The post VW wage talks kick off with prop coffins and strike threats appeared…"
+      "title": "Next-generation simulation supports development of Xpeng’s intelligent driving technology",
+      "url": "https://www.autonomousvehicleinternational.com/news/simulation-software/next-generation-simulation-supports-development-of-xpengs-intelligent-driving-technology.html",
+      "source": "ADAS & autonomous Vehicle",
+      "date": "2026-11-25T15:49:31.000Z",
+      "summary": "Xpeng has introduced a major upgrade to X-World, its in-house AI world model designed to support the development and validation of intelligent driving technology. The latest version, X-World 1.6, brings significant…"
     },
     {
-      "title": "BEVs near 30% of EU sales as Chinese brands take the gains",
-      "url": "https://www.automotiveworld.com/news/bevs-near-30-of-eu-sales-as-chinese-brands-take-the-gains/",
+      "title": "BYD eyes Ineos’ French plant as Made in Europe rules loom",
+      "url": "https://www.automotiveworld.com/intelligence/byd-eyes-ineos-french-plant-as-made-in-europe-rules-loom/",
       "source": "Automotive World",
-      "date": "2026-11-24T14:04:33.000Z",
-      "summary": "Subsidies and high fuel prices are driving the BEV surge, but it is Chinese brands, not European incumbents, reaping the gains. By Stewart Burnett The post BEVs near 30% of EU sales as Chinese brands take the gains…"
+      "date": "2026-11-25T15:29:28.000Z",
+      "summary": "Hambach's annual capacity equals three days of BYD output; its real value is a French badge ahead of local content rules. By Stewart Burnett The post BYD eyes Ineos’ French plant as Made in Europe rules loom appeared…"
     },
     {
-      "title": "Incumbents rule Brazil’s truck market, but China is circling",
-      "url": "https://www.automotiveworld.com/analysis/incumbents-rule-brazils-truck-market-but-china-is-circling/",
-      "source": "Automotive World",
-      "date": "2026-11-24T12:20:13.000Z",
-      "summary": "Brazil's truck market is stalling, with sales of locally-produced vehicles trending down, leaving an opening for Chinese imports to grow. By Will Girling The post Incumbents rule Brazil’s truck market, but China is…"
+      "title": "In this Issue – January 2027",
+      "url": "https://www.autonomousvehicleinternational.com/online-magazines/in-this-issue-january-2027.html",
+      "source": "ADAS & autonomous Vehicle",
+      "date": "2026-11-25T12:18:06.000Z",
+      "summary": "The January 2027 issue is now available online! Packed full of news, interviews and features, including: COVER STORY – Mapping : As maps become an increasingly shared source of data for drivers and autonomous vehicles,…"
     },
     {
-      "title": "EU hybrid cap starts 1 December, expands beyond China",
-      "url": "https://www.automotiveworld.com/news/eu-hybrid-cap-starts-1-december-expands-beyond-china/",
+      "title": "Detroit eyes defence work as Pentagon courts its factories",
+      "url": "https://www.automotiveworld.com/news/detroit-eyes-defence-work-as-pentagon-courts-its-factories/",
       "source": "Automotive World",
-      "date": "2026-11-24T12:20:06.000Z",
-      "summary": "The EU's 200-day hybrid safeguard also sets quotas for the UK, Japan, Turkey and South Korea, though it targets China most The post EU hybrid cap starts 1 December, expands beyond China appeared first on Automotive…"
+      "date": "2026-11-25T10:56:16.000Z",
+      "summary": "Automakers are selling manufacturing know-how rather than products, but can defence revenue reverse falling auto profits? By Stewart Burnett The post Detroit eyes defence work as Pentagon courts its factories appeared…"
     },
     {
-      "title": "How AI in automotive validation is accelerating vehicle development",
-      "url": "https://www.automotiveworld.com/partner-content/how-ai-in-automotive-validation-is-accelerating-vehicle-development/",
+      "title": "Mercedes-Benz Trucks backs liquid hydrogen for NextGenH2",
+      "url": "https://www.automotiveworld.com/news/mercedes-benz-trucks-backs-liquid-hydrogen-for-nextgenh2/",
       "source": "Automotive World",
-      "date": "2026-11-24T09:00:16.000Z",
-      "summary": "As vehicle development cycles shorten, AI-assisted validation is helping engineers turn complex test data into actionable insights and accelerate the journey to production. The post How AI in automotive validation is…"
+      "date": "2026-11-25T06:40:01.000Z",
+      "summary": "Mercedes-Benz Trucks has solved much of the vehicle side of liquid hydrogen, leaving refuelling infrastructure as the real bottleneck The post Mercedes-Benz Trucks backs liquid hydrogen for NextGenH2 appeared first on…"
     },
     {
-      "title": "Xpeng WorldGPT uses one AI model for cars and robots",
-      "url": "https://www.automotiveworld.com/news/xpeng-worldgpt-uses-one-ai-model-for-cars-and-robots/",
+      "title": "Suzuki unveils all-new Ignis as its first compact EV",
+      "url": "https://www.automotiveworld.com/news/suzuki-unveils-all-new-ignis-as-its-first-compact-ev/",
       "source": "Automotive World",
-      "date": "2026-11-24T06:10:41.000Z",
-      "summary": "Xpeng WorldGPT shows the automaker treating cars as one machine among many in a wider bet on physical AI and robotics The post Xpeng WorldGPT uses one AI model for cars and robots appeared first on Automotive World ."
+      "date": "2026-11-25T06:35:55.000Z",
+      "summary": "Suzuki is entering the compact EV market late, betting its small-car packaging skills can win over buyers still loyal to combustion The post Suzuki unveils all-new Ignis as its first compact EV appeared first on…"
     },
     {
-      "title": "Elli launches vehicle-to-grid charging offer in Germany",
-      "url": "https://www.automotiveworld.com/news/elli-launches-vehicle-to-grid-charging-offer-in-germany/",
+      "title": "Nio launches NWM 3.0 world model and Nomi Intelligence 4.0",
+      "url": "https://www.automotiveworld.com/news/nio-launches-nwm-3-0-world-model-and-nomi-intelligence-4-0/",
       "source": "Automotive World",
-      "date": "2026-11-24T06:05:30.000Z",
-      "summary": "Paying drivers simply to stay connected shows how Elli plans to win over owners before feed-in payments arrive The post Elli launches vehicle-to-grid charging offer in Germany appeared first on Automotive World ."
+      "date": "2026-11-25T06:30:57.000Z",
+      "summary": "Nio is betting that software updates delivered over the air can keep its cars competitive as AI reshapes driving and the cabin The post Nio launches NWM 3.0 world model and Nomi Intelligence 4.0 appeared first on…"
     },
     {
-      "title": "Visteon telematics hardware goes into production in India",
-      "url": "https://www.automotiveworld.com/news/visteon-telematics-hardware-goes-into-production-in-india/",
+      "title": "Culina orders 1,051 Volvo FH Aero trucks in record UK deal",
+      "url": "https://www.automotiveworld.com/news/culina-orders-1051-volvo-fh-aero-trucks-in-record-uk-deal/",
       "source": "Automotive World",
-      "date": "2026-11-24T06:00:14.000Z",
-      "summary": "Modules designed to take satellite links and new chipsets later let Visteon sell automakers connectivity that can grow over time The post Visteon telematics hardware goes into production in India appeared first on…"
+      "date": "2026-11-25T06:25:39.000Z",
+      "summary": "Culina’s record Volvo order shows fuel savings, proven in its own fleet, still decide large truck purchases ahead of new powertrains The post Culina orders 1,051 Volvo FH Aero trucks in record UK deal appeared first on…"
+    },
+    {
+      "title": "Renault brings renative recycled label to new vehicles",
+      "url": "https://www.automotiveworld.com/news/renault-brings-renative-recycled-label-to-new-vehicles/",
+      "source": "Automotive World",
+      "date": "2026-11-25T06:20:34.000Z",
+      "summary": "As electrification cuts tailpipe emissions, Renault is turning recycled materials into a visible selling point for buyers to judge The post Renault brings renative recycled label to new vehicles appeared first on…"
+    },
+    {
+      "title": "Infineon adds radar chip for centralised driver assistance",
+      "url": "https://www.automotiveworld.com/news/infineon-adds-radar-chip-for-centralised-driver-assistance/",
+      "source": "Automotive World",
+      "date": "2026-11-25T06:15:46.000Z",
+      "summary": "As radar processing moves to a central computer, Infineon is designing sensors that do less thinking and more fast data delivery The post Infineon adds radar chip for centralised driver assistance appeared first on…"
     },
     {
       "title": "California DMV ban leads Waymo to pause freeway services",
@@ -112,20 +126,6 @@
       "source": "The Guardian",
       "date": "2026-11-17T23:14:12.000Z",
       "summary": "State DMV says vehicles pose ‘imminent hazard’ after cars entered closed zone and tried to bypass highway patrol California has banned Waymo’s autonomous vehicles from state freeways, saying they pose an “imminent…"
-    },
-    {
-      "title": "Komatsu partners with Tier IV to develop autonomous dump-truck technology",
-      "url": "https://www.autonomousvehicleinternational.com/news/off-highway/komatsu-partners-with-tier-iv-to-develop-autonomous-dump-truck-technology.html",
-      "source": "ADAS & autonomous Vehicle",
-      "date": "2026-11-16T16:55:45.000Z",
-      "summary": "Tier IV, Komatsu and Earthbrain, a Komatsu subsidiary, have begun developing autonomous driving systems for three dump-truck models, in an effort to bring autonomous driving technology into practical use at quarry and…"
-    },
-    {
-      "title": "Toyota bZ4X enters fully driverless service following Pony.ai partnership",
-      "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/toyota-bz4x-enters-fully-driverless-service-following-pony-ai-partnership.html",
-      "source": "ADAS & autonomous Vehicle",
-      "date": "2026-11-16T16:45:34.000Z",
-      "summary": "Pony AI and Toyota have launched a fully driverless commercial service with their ‌collaboratively developed bZ4X robotaxi. One of Pony.ai’s three seventh-generation robotaxi models, the bZ4X has officially joined the…"
     },
     {
       "title": "Tesla to wind down Cybertruck production as Elon Musk focuses on robotics and AI",
