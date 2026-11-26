@@ -1,6 +1,76 @@
 {
-  "updated": "2026-11-25T16:51:00.990Z",
+  "updated": "2026-11-26T16:28:21.399Z",
   "items": [
+    {
+      "title": "EU delays Tesla FSD vote again, now 15 December",
+      "url": "https://www.automotiveworld.com/news/eu-delays-tesla-fsd-vote-again-now-15-december/",
+      "source": "Automotive World",
+      "date": "2026-11-26T12:37:24.000Z",
+      "summary": "The EU committee expected to consider bloc-wide approval of Tesla Assisted Driving will now meet on 15 December, not 1 December The post EU delays Tesla FSD vote again, now 15 December appeared first on Automotive World…"
+    },
+    {
+      "title": "From Estonia to the world: Making autonomous mobility work",
+      "url": "https://www.autonomousvehicleinternational.com/opinion/from-estonia-to-the-world-making-autonomous-mobility-work.html",
+      "source": "ADAS & autonomous Vehicle",
+      "date": "2026-11-26T12:11:11.000Z",
+      "summary": "Taavi Rõivas, chairman of Auve Tech and former Prime Minister of Estonia, explores how autonomous shuttles could transform first- and last-mile transportation, highlighting the importance of regulation, commercial…"
+    },
+    {
+      "title": "Level 4 robotaxis take to public roads in Luxembourg through Bolt partnership",
+      "url": "https://www.autonomousvehicleinternational.com/news/robotaxis/level-4-robotaxis-take-to-public-roads-in-luxembourg-through-bolt-partnership.html",
+      "source": "ADAS & autonomous Vehicle",
+      "date": "2026-11-26T11:06:34.000Z",
+      "summary": "Bolt has officially begun its self-driving operations in Luxembourg. The vehicles are operated in fully autonomous mode (L4) and powered by Pony.ai’s Gen 7 driving system. Under a national scientific permit issued by…"
+    },
+    {
+      "title": "Mercedes-Benz completes GLA line-up with 48-volt hybrids",
+      "url": "https://www.automotiveworld.com/news/mercedes-benz-completes-gla-line-up-with-48-volt-hybrids/",
+      "source": "Automotive World",
+      "date": "2026-11-26T06:50:48.000Z",
+      "summary": "A shared operating system across electric and hybrid GLAs shows Mercedes-Benz treating software as the constant across powertrains The post Mercedes-Benz completes GLA line-up with 48-volt hybrids appeared first on…"
+    },
+    {
+      "title": "Leapmotor adds blowout stability control to chassis suite",
+      "url": "https://www.automotiveworld.com/news/leapmotor-adds-blowout-stability-control-to-chassis-suite/",
+      "source": "Automotive World",
+      "date": "2026-11-26T06:40:16.000Z",
+      "summary": "Leapmotor’s tyre blowout stability control shows the brand using safety software to compete beyond price in mainstream segments The post Leapmotor adds blowout stability control to chassis suite appeared first on…"
+    },
+    {
+      "title": "Ford Puma Gen-E earns 96% Green NCAP sustainability rating",
+      "url": "https://www.automotiveworld.com/topics/e-mobility/ford-puma-gen-e-earns-96-green-ncap-sustainability-rating/",
+      "source": "Automotive World",
+      "date": "2026-11-26T06:35:50.000Z",
+      "summary": "Green NCAP’s results show plug-in hybrids only justify their extra battery when it is large enough to keep the engine off in winter The post Ford Puma Gen-E earns 96% Green NCAP sustainability rating appeared first on…"
+    },
+    {
+      "title": "Solaris names its zero-emission intercity bus Internova",
+      "url": "https://www.automotiveworld.com/news/solaris-names-its-zero-emission-intercity-bus-internova/",
+      "source": "Automotive World",
+      "date": "2026-11-26T06:30:37.000Z",
+      "summary": "Solaris Internova moves zero-emission buses onto intercity routes, where distance turns range and refuelling into the deciding factors The post Solaris names its zero-emission intercity bus Internova appeared first on…"
+    },
+    {
+      "title": "Suzuki and Eliiy Power to build battery plant in Shizuoka",
+      "url": "https://www.automotiveworld.com/news/suzuki-and-eliiy-power-to-build-battery-plant-in-shizuoka/",
+      "source": "Automotive World",
+      "date": "2026-11-26T06:25:24.000Z",
+      "summary": "Designing batteries for a second life in storage is Suzuki’s bid to cut ownership costs for small electric cars without chasing scale The post Suzuki and Eliiy Power to build battery plant in Shizuoka appeared first on…"
+    },
+    {
+      "title": "Honda ships Acura Integra Type S to its home market",
+      "url": "https://www.automotiveworld.com/news/honda-ships-acura-integra-type-s-to-its-home-market/",
+      "source": "Automotive World",
+      "date": "2026-11-26T06:20:36.000Z",
+      "summary": "Acura’s 40th anniversary brings its first official sale in Japan, built on a US export channel Honda has run for nearly four decades The post Honda ships Acura Integra Type S to its home market appeared first on…"
+    },
+    {
+      "title": "Mahle pairs autonomous parking with wireless charging",
+      "url": "https://www.automotiveworld.com/news/mahle-pairs-autonomous-parking-with-wireless-charging/",
+      "source": "Automotive World",
+      "date": "2026-11-26T06:15:00.000Z",
+      "summary": "Mahle’s wireless charging pilot shows suppliers betting that automation, more than charging speed, will win over electric fleets The post Mahle pairs autonomous parking with wireless charging appeared first on…"
+    },
     {
       "title": "Next-generation simulation supports development of Xpeng’s intelligent driving technology",
       "url": "https://www.autonomousvehicleinternational.com/news/simulation-software/next-generation-simulation-supports-development-of-xpengs-intelligent-driving-technology.html",
@@ -9,67 +79,11 @@
       "summary": "Xpeng has introduced a major upgrade to X-World, its in-house AI world model designed to support the development and validation of intelligent driving technology. The latest version, X-World 1.6, brings significant…"
     },
     {
-      "title": "BYD eyes Ineos’ French plant as Made in Europe rules loom",
-      "url": "https://www.automotiveworld.com/intelligence/byd-eyes-ineos-french-plant-as-made-in-europe-rules-loom/",
-      "source": "Automotive World",
-      "date": "2026-11-25T15:29:28.000Z",
-      "summary": "Hambach's annual capacity equals three days of BYD output; its real value is a French badge ahead of local content rules. By Stewart Burnett The post BYD eyes Ineos’ French plant as Made in Europe rules loom appeared…"
-    },
-    {
       "title": "In this Issue – January 2027",
       "url": "https://www.autonomousvehicleinternational.com/online-magazines/in-this-issue-january-2027.html",
       "source": "ADAS & autonomous Vehicle",
       "date": "2026-11-25T12:18:06.000Z",
       "summary": "The January 2027 issue is now available online! Packed full of news, interviews and features, including: COVER STORY – Mapping : As maps become an increasingly shared source of data for drivers and autonomous vehicles,…"
-    },
-    {
-      "title": "Detroit eyes defence work as Pentagon courts its factories",
-      "url": "https://www.automotiveworld.com/news/detroit-eyes-defence-work-as-pentagon-courts-its-factories/",
-      "source": "Automotive World",
-      "date": "2026-11-25T10:56:16.000Z",
-      "summary": "Automakers are selling manufacturing know-how rather than products, but can defence revenue reverse falling auto profits? By Stewart Burnett The post Detroit eyes defence work as Pentagon courts its factories appeared…"
-    },
-    {
-      "title": "Mercedes-Benz Trucks backs liquid hydrogen for NextGenH2",
-      "url": "https://www.automotiveworld.com/news/mercedes-benz-trucks-backs-liquid-hydrogen-for-nextgenh2/",
-      "source": "Automotive World",
-      "date": "2026-11-25T06:40:01.000Z",
-      "summary": "Mercedes-Benz Trucks has solved much of the vehicle side of liquid hydrogen, leaving refuelling infrastructure as the real bottleneck The post Mercedes-Benz Trucks backs liquid hydrogen for NextGenH2 appeared first on…"
-    },
-    {
-      "title": "Suzuki unveils all-new Ignis as its first compact EV",
-      "url": "https://www.automotiveworld.com/news/suzuki-unveils-all-new-ignis-as-its-first-compact-ev/",
-      "source": "Automotive World",
-      "date": "2026-11-25T06:35:55.000Z",
-      "summary": "Suzuki is entering the compact EV market late, betting its small-car packaging skills can win over buyers still loyal to combustion The post Suzuki unveils all-new Ignis as its first compact EV appeared first on…"
-    },
-    {
-      "title": "Nio launches NWM 3.0 world model and Nomi Intelligence 4.0",
-      "url": "https://www.automotiveworld.com/news/nio-launches-nwm-3-0-world-model-and-nomi-intelligence-4-0/",
-      "source": "Automotive World",
-      "date": "2026-11-25T06:30:57.000Z",
-      "summary": "Nio is betting that software updates delivered over the air can keep its cars competitive as AI reshapes driving and the cabin The post Nio launches NWM 3.0 world model and Nomi Intelligence 4.0 appeared first on…"
-    },
-    {
-      "title": "Culina orders 1,051 Volvo FH Aero trucks in record UK deal",
-      "url": "https://www.automotiveworld.com/news/culina-orders-1051-volvo-fh-aero-trucks-in-record-uk-deal/",
-      "source": "Automotive World",
-      "date": "2026-11-25T06:25:39.000Z",
-      "summary": "Culina’s record Volvo order shows fuel savings, proven in its own fleet, still decide large truck purchases ahead of new powertrains The post Culina orders 1,051 Volvo FH Aero trucks in record UK deal appeared first on…"
-    },
-    {
-      "title": "Renault brings renative recycled label to new vehicles",
-      "url": "https://www.automotiveworld.com/news/renault-brings-renative-recycled-label-to-new-vehicles/",
-      "source": "Automotive World",
-      "date": "2026-11-25T06:20:34.000Z",
-      "summary": "As electrification cuts tailpipe emissions, Renault is turning recycled materials into a visible selling point for buyers to judge The post Renault brings renative recycled label to new vehicles appeared first on…"
-    },
-    {
-      "title": "Infineon adds radar chip for centralised driver assistance",
-      "url": "https://www.automotiveworld.com/news/infineon-adds-radar-chip-for-centralised-driver-assistance/",
-      "source": "Automotive World",
-      "date": "2026-11-25T06:15:46.000Z",
-      "summary": "As radar processing moves to a central computer, Infineon is designing sensors that do less thinking and more fast data delivery The post Infineon adds radar chip for centralised driver assistance appeared first on…"
     },
     {
       "title": "California DMV ban leads Waymo to pause freeway services",
@@ -105,20 +119,6 @@
       "source": "ADAS & autonomous Vehicle",
       "date": "2026-11-18T14:30:46.000Z",
       "summary": "Riders in Munich, Germany, can now be offered supervised autonomous journeys through the Uber app as part of a new pilot program. Developed by Uber and Momenta, the trial will see autonomous vehicles operate with a…"
-    },
-    {
-      "title": "LG central gateway earns TÜV Rheinland certification for functional safety",
-      "url": "https://www.autonomousvehicleinternational.com/uncategorized/lg-central-gateway-earns-tuv-rheinland-certification-for-functional-safety.html",
-      "source": "ADAS & autonomous Vehicle",
-      "date": "2026-11-18T12:25:17.000Z",
-      "summary": "LG Electronics has earned its first ISO 26262 Automotive Safety Integrity Level D (ASIL D) product certification for its automotive central gateway system, developed as the central communication unit (CCU) 2.0 for the…"
-    },
-    {
-      "title": "Updated DriveWorks plug-in brings OXTS navigation data to Nvidia Thor platform",
-      "url": "https://www.autonomousvehicleinternational.com/news/software/updated-driveworks-plug-in-brings-oxts-navigation-data-to-nvidia-thor-platform.html",
-      "source": "ADAS & autonomous Vehicle",
-      "date": "2026-11-18T11:05:11.000Z",
-      "summary": "OXTS has released an updated version of its Nvidia DriveWorks plug-in, adding compatibility with Nvidia DriveOS 7.0.3 and the Nvidia Drive AGX Thor in-vehicle computing platform. The update allows autonomous vehicle…"
     },
     {
       "title": "California bans Waymo self-driving cars from freeways",
